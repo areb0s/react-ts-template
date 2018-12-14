@@ -1,3 +1,4 @@
+import CssBaseline from '@material-ui/core/CssBaseline';
 import * as React from 'react';
 import './App.css';
 import logoSvg from './logo.svg';
@@ -6,6 +7,7 @@ class App extends React.Component {
   public render() {
     return (
       <div className="App">
+        <CssBaseline />
         <header className="App-header">
           <img src={logoSvg} className="App-logo" alt="logo" />
           <p>
